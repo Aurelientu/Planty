@@ -31,7 +31,9 @@
     <header>
         <nav id="nav-bar">
             <div id="logo">
+            <a href="<?php echo home_url(); ?>">
                 <img src="/wp-content/themes/oceanwp-child/img/logo_planty.svg" alt="Planty boisson énergisante !">
+                </a>
             </div>
 
 <!-- On affiche notre menu correspondant à la localisation cochée avec wp_nav_menu. Il a été créé depuis l'administration WP 
