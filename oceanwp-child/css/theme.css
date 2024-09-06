@@ -27,6 +27,7 @@ header {
     margin: 0;
     padding: 0;
     height: auto;
+
     
 }
 
@@ -91,11 +92,51 @@ header {
         color: var(--couleur-texte-survol);
         background-color: var(--couleur-fond-survol);
         margin: 0 0 0 0;
-    }  
+    }
     
 /* Pour avoir les arrondis en bas des containers */    
 
 
 .arrondi-bas {
     border-radius: 0% 0% 30% 40% / 10% 10% 10% 10% !important; 
+}
+
+
+
+/* Pour les tailles d'écran dont la taille maxi est de 380px de large. */
+
+@media screen and (min-width: 0px) and (max-width: 380px)
+{
+    #logo {
+        margin: 10px auto 10px auto;
+        width: 130px;
+        height: auto;
+    }
+
+    #nav-bar {
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        max-width: 100%;
+        height: auto;
+        margin: 0 0 25px 0;
+        padding: 0;
+
+    }
+
+    /*#menu a:hover {
+        text-decoration: none;
+        color: var(--couleur-texte-survol);
+        background-color: var(--couleur-fond-survol);
+        margin: 0 0 0 0;
+    }*/
+
+    /* Pour les écrans avec une largeur inférieure à 768px */
+@media (max-width: 320px) {
+    #menu a:hover {
+      background-color: inherit; /* Supprime le changement de couleur sur hover */
+      cursor: default; /* Change le curseur à celui par défaut */
+    }
+  }
+  
 }
