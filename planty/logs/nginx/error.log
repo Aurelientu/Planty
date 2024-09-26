@@ -1,0 +1,6 @@
+2024/05/24 15:49:16 [alert] 13788#9016: OpenEvent("ngx_master_7140") failed (2: The system cannot find the file specified)
+2024/06/14 15:53:03 [alert] 14352#19804: OpenEvent("ngx_master_15832") failed (2: The system cannot find the file specified)
+2024/06/27 17:00:06 [alert] 10524#1580: OpenEvent("ngx_master_20136") failed (2: The system cannot find the file specified)
+2024/07/09 14:31:40 [error] 17552#19140: *3705 directory index of "C:/Users/doark.DESKTOP-6I1F2OC/Local Sites/planty/app/public/wp-content/themes/oceanwp/assets/css/" is forbidden, client: 127.0.0.1, server: , request: "GET /wp-content/themes/oceanwp/assets/css/ HTTP/1.0", host: "planty.local"
+2024/07/25 21:42:44 [alert] 19728#9296: OpenEvent("ngx_master_13740") failed (2: The system cannot find the file specified)
+2024/08/29 16:43:22 [alert] 8996#14432: OpenEvent("ngx_master_14656") failed (2: The system cannot find the file specified)
